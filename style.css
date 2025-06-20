@@ -1,0 +1,79 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #7ed6df, #eccc68);
+  color: #fff;
+  padding: 20px;
+  line-height: 1.7;
+  background-attachment: fixed;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #f9f9f9;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #fefefe;
+}
+
+/* Sections */
+section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  backdrop-filter: blur(8px);
+  }
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #fefefe;
+}
+
+section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
